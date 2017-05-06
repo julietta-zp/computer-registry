@@ -1,0 +1,14 @@
+# phpstorm project files
+.idea
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed
+composer.lock
+
+tests/_output/*
+tests/_support/_generated
